@@ -154,6 +154,9 @@ endif
 TARGET_RECOVERY_FSTAB := $(COMMON_PATH)/rootdir/fstab.qcom
 TARGET_USERIMAGES_USE_EXT4 := true
 
+# Speed profile services and wifi-service to reduce RAM and storage.
+PRODUCT_SYSTEM_SERVER_COMPILER_FILTER := speed-profile
+
 # Use a profile based boot image for this device. Note that this is currently a
 # generic profile and not Android Go optimized.
 PRODUCT_USE_PROFILE_FOR_BOOT_IMAGE := true
