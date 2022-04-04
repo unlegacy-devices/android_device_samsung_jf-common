@@ -134,9 +134,9 @@ PRODUCT_PACKAGES += \
     camera.msm8960 \
     Snap
 
-# ConfigStore
+# configstore
 PRODUCT_PACKAGES += \
-    disable_configstore
+    android.hardware.configstore@1.1-service
     
 # Display
 PRODUCT_PACKAGES += \
