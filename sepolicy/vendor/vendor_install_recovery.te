@@ -9,4 +9,4 @@ allow vendor_install_recovery block_device:blk_file rw_file_perms;
 allow vendor_install_recovery proc_cmdline:file r_file_perms;
 
 allow vendor_install_recovery shell_data_file:dir create_dir_perms;
-allow vendor_install_recovery shell_data_file:file rw_file_perms;
+allow vendor_install_recovery shell_data_file:file create_file_perms;
