@@ -75,3 +75,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
     dalvik.vm.heaptargetutilization=0.75 \
     dalvik.vm.heapminfree=2m \
     dalvik.vm.heapmaxfree=8m
+
+# VNDK
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.vndk.version=current
