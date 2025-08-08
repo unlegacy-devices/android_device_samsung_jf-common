@@ -77,6 +77,10 @@ PRODUCT_PRODUCT_PROPERTIES += \
     dalvik.vm.heapminfree=2m \
     dalvik.vm.heapmaxfree=8m
 
+# Zygote
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.device_config.runtime_native.usap_pool_enabled=true
+
 # VNDK
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.vndk.version=current
