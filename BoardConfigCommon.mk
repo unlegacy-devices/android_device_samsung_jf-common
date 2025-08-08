@@ -154,6 +154,9 @@ TARGET_USERIMAGES_USE_EXT4 := true
 # Releasetools
 TARGET_RELEASETOOLS_EXTENSIONS := $(COMMON_PATH)/releasetools
 
+# ELF
+BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
+
 # SELinux
 #include device/qcom/sepolicy-legacy/sepolicy.mk
 #BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
