@@ -79,3 +79,6 @@ PRODUCT_PRODUCT_PROPERTIES += \
 # VNDK
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.vndk.version=current
+	
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.sys.binary_xml=false
